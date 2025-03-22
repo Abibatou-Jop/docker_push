@@ -1,0 +1,7 @@
+#Le fichier docker-compose.yml permet de simplifier le déploiement du projet avec Docker Compose.
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
