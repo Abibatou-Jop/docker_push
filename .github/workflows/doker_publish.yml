@@ -26,5 +26,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/mon_serveur:v1.0
-            ${{ secrets.DOCKERHUB_USERNAME }}/mon_serveur:v1.0-${{ github.sha }}
+            abibatou77/mon_serveur:v1.0
+            abibatou77/mon_serveur:v1.0-${{ github.sha }}
